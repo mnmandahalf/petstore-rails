@@ -21,4 +21,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Type check
+
+```
+bundle exec steep check
+```
