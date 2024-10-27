@@ -5,7 +5,8 @@ target :lib do
 
   # check "lib"                       # Directory name
   # check "Gemfile"                   # File name
-  check "app/models/**/*.rb"        # Glob
+  check "app/models/**/*.rb"
+  check "app/controllers/**/*.rb"
   # ignore "lib/templates/*.rb"
 
   # library "pathname"              # Standard libraries

@@ -1,0 +1,3 @@
+class PetsController < ApplicationController 
+  def pet_params: () -> void
+end
