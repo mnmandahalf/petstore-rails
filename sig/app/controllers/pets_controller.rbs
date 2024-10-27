@@ -1,3 +1,3 @@
 class PetsController < ApplicationController 
-  def pet_params: () -> void
+  def pet_params: () -> ActionController::Parameters
 end

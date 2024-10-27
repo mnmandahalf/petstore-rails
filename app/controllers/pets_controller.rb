@@ -8,7 +8,10 @@ class PetsController < ApplicationController
   end
 
   def create
-    pet = Pet.create!(pet_params)
+    pet = Pet.create!(
+      name: pet_params[:name],
+      tag: pet_params[:tag]
+    )
     render json: pet, status: :created
   end
 
